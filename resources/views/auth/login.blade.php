@@ -77,6 +77,15 @@
                 <p class="mb-1">
 
                 </p>
+
+                <div class="d-flex justify-content-center">
+                    <a href="{{ route('socialauth.redirect',['github']) }}" class="btn btn-primary">
+                        <i class="fa fa-github"></i>
+                        <i class="fab fa-github nav-icon mr-2">
+                        </i>
+                        {{ trans('auth.login_with_github') }}
+                    </a>
+                </div>
             </div>
             <!-- /.login-card-body -->
         </div>
